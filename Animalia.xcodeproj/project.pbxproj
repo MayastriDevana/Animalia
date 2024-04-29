@@ -30,6 +30,9 @@
 		CEB764402BDF39C300F26C25 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7643F2BDF39C300F26C25 /* Bundle+Ext.swift */; };
 		CEB764432BDF43D800F26C25 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB764422BDF43D800F26C25 /* AnimalModel.swift */; };
 		CEB764452BDF44BE00F26C25 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB764442BDF44BE00F26C25 /* AnimalListItemView.swift */; };
+		CEB764482BDF503E00F26C25 /* OctagonImageFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB764472BDF503E00F26C25 /* OctagonImageFrame.swift */; };
+		CEB7644A2BDF5D2000F26C25 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB764492BDF5D2000F26C25 /* AnimalGridItemView.swift */; };
+		CEB7644C2BDF607F00F26C25 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7644B2BDF607F00F26C25 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		CEB764412BDF3FD100F26C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CEB764422BDF43D800F26C25 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		CEB764442BDF44BE00F26C25 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		CEB764472BDF503E00F26C25 /* OctagonImageFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctagonImageFrame.swift; sourceTree = "<group>"; };
+		CEB764492BDF5D2000F26C25 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		CEB7644B2BDF607F00F26C25 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				CE445AAC2BDF3280004AC738 /* ContentView.swift */,
+				CEB7644B2BDF607F00F26C25 /* MainView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -177,6 +184,8 @@
 			children = (
 				CEB764392BDF37E500F26C25 /* CoverImageView.swift */,
 				CEB764442BDF44BE00F26C25 /* AnimalListItemView.swift */,
+				CEB764472BDF503E00F26C25 /* OctagonImageFrame.swift */,
+				CEB764492BDF5D2000F26C25 /* AnimalGridItemView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -285,10 +294,13 @@
 				CE445AAD2BDF3280004AC738 /* ContentView.swift in Sources */,
 				CEB764432BDF43D800F26C25 /* AnimalModel.swift in Sources */,
 				CEB7643A2BDF37E500F26C25 /* CoverImageView.swift in Sources */,
+				CEB7644C2BDF607F00F26C25 /* MainView.swift in Sources */,
+				CEB764482BDF503E00F26C25 /* OctagonImageFrame.swift in Sources */,
 				CEB764402BDF39C300F26C25 /* Bundle+Ext.swift in Sources */,
 				CE445AAB2BDF3280004AC738 /* AnimaliaApp.swift in Sources */,
 				CEB7643D2BDF38EA00F26C25 /* CoverImageModel.swift in Sources */,
 				CEB764452BDF44BE00F26C25 /* AnimalListItemView.swift in Sources */,
+				CEB7644A2BDF5D2000F26C25 /* AnimalGridItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
