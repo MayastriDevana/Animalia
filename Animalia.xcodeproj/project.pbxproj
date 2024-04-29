@@ -196,16 +196,10 @@
 		CEB764372BDF37AE00F26C25 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				CEB764392BDF37E500F26C25 /* CoverImageView.swift */,
-				CEB764442BDF44BE00F26C25 /* AnimalListItemView.swift */,
-				CEB764472BDF503E00F26C25 /* OctagonImageFrame.swift */,
+				CEB7645D2BDF981F00F26C25 /* SubViewBrowse */,
+				CEB7645C2BDF97A400F26C25 /* SubViewDetail */,
 				CEB764492BDF5D2000F26C25 /* AnimalGridItemView.swift */,
 				CEB7644D2BDF773D00F26C25 /* AnimalDetailView.swift */,
-				CEB764502BDF7CB000F26C25 /* HeadingView.swift */,
-				CEB764522BDF7F5D00F26C25 /* InsetGalleryView.swift */,
-				CEB764542BDF829300F26C25 /* InsetFactView.swift */,
-				CEB764562BDF8B4700F26C25 /* InsetMapView.swift */,
-				CEB7645A2BDF946800F26C25 /* ExternalWebLinkView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -226,6 +220,28 @@
 				CEB764582BDF8E2100F26C25 /* CLLocation+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEB7645C2BDF97A400F26C25 /* SubViewDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7645A2BDF946800F26C25 /* ExternalWebLinkView.swift */,
+				CEB764502BDF7CB000F26C25 /* HeadingView.swift */,
+				CEB764562BDF8B4700F26C25 /* InsetMapView.swift */,
+				CEB764542BDF829300F26C25 /* InsetFactView.swift */,
+				CEB764522BDF7F5D00F26C25 /* InsetGalleryView.swift */,
+			);
+			path = SubViewDetail;
+			sourceTree = "<group>";
+		};
+		CEB7645D2BDF981F00F26C25 /* SubViewBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				CEB764472BDF503E00F26C25 /* OctagonImageFrame.swift */,
+				CEB764442BDF44BE00F26C25 /* AnimalListItemView.swift */,
+				CEB764392BDF37E500F26C25 /* CoverImageView.swift */,
+			);
+			path = SubViewBrowse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
