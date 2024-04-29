@@ -13,6 +13,8 @@ struct ContentView: View {
     
     let animals: [AnimalModel] = Bundle.main.decode("animals.json")
     
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
+    
     @State private var gridLayout: [GridItem] = [
         GridItem(.flexible())
     ]
@@ -79,6 +81,7 @@ struct ContentView: View {
                         Button{
                             print("List view is activated")
                             isGridViewActive = false
+                            haptics.impactOccurred()
                         }label: {
                             Image(systemName: "square.fill.text.grid.1x2")
                                 .font(.title2)
@@ -91,6 +94,7 @@ struct ContentView: View {
                             print("Grid view is activated")
                             isGridViewActive = true
                             gridSwitch()
+                            haptics.impactOccurred()
                         }label: {
                             Image(systemName: toolbarIcon)
                                 .font(.title2)
