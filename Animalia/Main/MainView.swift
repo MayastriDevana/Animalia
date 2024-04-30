@@ -18,11 +18,11 @@ struct MainView: View {
                 .tabItem {
                     Label("Watch", systemImage: "play.rectangle")
                 }
-            MotionAnimationView()
+            MapView()
                 .tabItem {
                     Label("Locations", systemImage: "map")
                 }
-            Text("Gallery")
+            GalleryView()
                 .tabItem {
                     Label("Gallery", systemImage: "photo")
                 }
