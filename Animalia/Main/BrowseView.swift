@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BrowseView.swift
 //  Animalia
 //
 //  Created by User on 29/04/24.
